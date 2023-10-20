@@ -6,11 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/")
-public class PortalController {
- 
+public class PortalControlador {
+
+
     @GetMapping("/")
-    public String index(){
+    public String index() {
 
         return "index.html";
     }
+
+  
 }
